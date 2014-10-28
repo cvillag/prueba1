@@ -11,6 +11,8 @@ public class Ninio extends Thread{
 	
 	public void run(){
 		int i = 0;
+		String z = "My string";
+		z += "hola";
 		TramoTobogan tActual = tobogan.get(0);
 		TramoTobogan tSiguiente = tobogan.get(1);
 		try {
